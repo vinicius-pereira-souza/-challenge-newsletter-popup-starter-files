@@ -45,12 +45,12 @@ body {
     padding: 30px;
     padding-bottom: 0;
     border-radius: 0 0 11px 11px;
-    text-align: center;
 
     p {
       line-height: 19px;
       color: #595959;
       margin-bottom: 25px;
+      text-align: center;
     }
 
     form {
@@ -89,6 +89,17 @@ body {
           }
         }
       }
+
+      span {
+        color: #b3b7c5;
+      }
     }
+  }
+
+  .footer {
+    padding: 30px 28px;
+    text-align: center;
+    line-height: 19px;
+    color: #595959;
   }
 }
